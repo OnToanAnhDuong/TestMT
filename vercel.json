@@ -8,9 +8,9 @@
   ],
   "routes": [
     {
-      // Specify which paths will route to a destination using a regex
+      
       "src": "/api/(.*)", "dest": "/api/$1",
-      // Specify the paths' destination
+     
       "dest": "index.js"
     }
   ]
